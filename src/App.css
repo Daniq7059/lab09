@@ -1,0 +1,26 @@
+.table-custom th,
+.table-custom td {
+  border: 2px solid #4CAF50; /* Bordes verdes */
+}
+
+.table-custom th {
+  background-color: #4CAF50; /* Fondo verde */
+  color: white; /* Texto blanco */
+}
+
+.table-custom tr:nth-child(even) {
+  background-color: #f2f2f2; /* Gris claro para filas pares */
+}
+
+.table-custom tr:hover {
+  background-color: #ddd; /* Gris oscuro al pasar el ratón */
+}
+
+.btn-custom {
+  background-color: #f44336; /* Rojo */
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: #d32f2f; /* Rojo oscuro al pasar el ratón */
+}
